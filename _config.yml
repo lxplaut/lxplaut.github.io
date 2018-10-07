@@ -1,0 +1,45 @@
+# Site settings
+name: Alex Plaut
+title: Alex Plaut | Software Engineer & PM
+description: I love to capture novel ideas and manifest them in reality.
+url: https://lxplaut.github.io/
+baseurl: ""
+email: applaut@iu.edu
+cover: https://lxplaut.github.io/img/og.png
+logo: https://lxplaut.github.io/img/emojis/technologist.png
+resume: resume.pdf
+social:
+  - title: email
+    url: mailto:applaut@iu.edu
+  - title: twitter
+    url: https://twitter.com/plautTheMan
+  - title: instagram
+    url: https://instagram.com/lxplaut
+  - title: codepen
+    url: http://codepen.io/
+  - title: github
+    url: https://github.com/lxplaut
+  - title: linkedin
+    url: https://www.linkedin.com/in/alex-plaut-767492111/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

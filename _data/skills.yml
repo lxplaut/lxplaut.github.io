@@ -1,0 +1,27 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: HTML
+  - item: CSS
+  - item: Java
+  - item: Python
+  - item: SQL
+  - item: Databases
+
+
+frameworks:
+  - item: Bootstrap
+  - item: Skeleton
+  - item: React
+  - item: Jekyll
+
+
+tools:
+  - item: Git & Github
+  - item: Chrome DevTools
+
+
+design:
+  - item: Sketch
+  - item: Prototyping
+  - item: Wireframing
+  - item: User Testing
